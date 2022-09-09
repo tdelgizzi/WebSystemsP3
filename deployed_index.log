@@ -1,0 +1,22 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 3.14.71.10...
+* TCP_NODELAY set
+* Connected to ec2-3-14-71-10.us-east-2.compute.amazonaws.com (3.14.71.10) port 80 (#0)
+> GET / HTTP/1.1
+> Host: ec2-3-14-71-10.us-east-2.compute.amazonaws.com
+> User-Agent: curl/7.58.0
+> Accept: */*
+> Cookie: login=eyJ1c2VyIjoiYXdkZW9yaW8ifQ.YKqkvg.t9Ie35HCKroPihSBAGIVzVK_Z58
+> 
+< HTTP/1.1 200 OK
+< Server: nginx/1.18.0 (Ubuntu)
+< Date: Sun, 23 May 2021 18:55:41 GMT
+< Content-Type: text/html; charset=utf-8
+< Content-Length: 671
+< Connection: keep-alive
+< Vary: Cookie
+< 
+{ [671 bytes data]
+100   671  100   671    0     0   4503      0 --:--:-- --:--:-- --:--:--  4503
+* Connection #0 to host ec2-3-14-71-10.us-east-2.compute.amazonaws.com left intact
